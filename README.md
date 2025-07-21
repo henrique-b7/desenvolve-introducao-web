@@ -1,2 +1,4 @@
 # desenvolve-introducao-web
-Repositório dedicado à disciplina de Introdução a Programação Web
+Projeto Desenvolve - Bom Despacho
+Introdução à Programação Web
+PDBD249
