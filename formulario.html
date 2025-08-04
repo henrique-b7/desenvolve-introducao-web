@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>Pesquisa de satisfação</title>
+  </head>
+  <body>
+     <header>
+        <h1>Formulário de pesquisa de satisfação</h1>
+        <p>Por favor, preencha o formulário abaixo:</p>
+    </header>
+       
+    <main>
+        <form action="pagina_destino.html" method="post">
+            <p>
+                <label for="nome">Nome:</label>
+                <input type="text" placeholder="Digite seu nome" id="nome" />
+            </p>
+            
+            <p>
+                <label for="email">E-mail:</label>
+                <input type="email" placeholder="Digite seu E-mail" id="email" />
+            </p>
+            
+            <p>
+                <label for="telefone">Telefone de Contato:</label>
+                <input type="tel" id="fone" placeholder="Digite seu telefone de contato" />
+            </p>
+            <p> 
+                <h2> Responda as perguntas abaixo:</h2>
+            </p>
+
+            <p> 
+                <label for ="pergunta1">1. Em uma escala de 0 a 5, como você avalia o nosso site?</label>
+            </p>
+
+            <p>
+               <input type="radio" name="pergunta1" value="0" id="r0"> 0 - Totalmente insatisfeito
+            </p>
+                
+            <p>
+                <input type="radio" name="pergunta1" value="1" id="r1"> 1 - Insatisfeito
+            </p>
+                
+            <p>
+                <input type="radio" name="pergunta1" value="2" id="r2"> 2 - Neutro
+            </p>   
+                
+            <p>
+                <input type="radio" name="pergunta1" value="3" id="r3"> 3 - Satisfeito
+            </p>
+            
+            <p>
+                <input type="radio" name="pergunta1" value="4" id="r4"> 4 - Muito satisfeito
+            </p>  
+
+            <p>
+                <input type="radio" name="pergunta1" value="5" id="r5"> 5 - Extremamente satisfeito
+            </p>
+
+            <p>
+                <label for="pergunta2">2. 0 que mais te agradou no nosso site?</label>
+            </p>
+
+            <p>
+                <input type=radio name="pergunta2" value="design" id="design"> Design
+            </p>
+
+            <p>
+                <input type=radio name="pergunta2" value="conteudo" id="conteudo"> Conteúdo
+            </p>
+
+            <p>
+                <input type=radio name="pergunta2" value="navegacao" id="navegacao"> Navegação 
+            </p>
+
+            <p>
+                <input type=radio name="pergunta2" value="outro" id="inovação"> Inovação
+            </p>
+
+            <p>
+                <input type="radio" name="pergunta2" value="outro" id="outro"> Outro
+            </p>
+
+            <p>
+                <label for="pergunta3">3. Qual seção do nosso site te chamou mais a anteção?</label>
+                <select name="pergunta3" id="seções">
+                    <option value="politica">Política</option>
+                    <option value="economia">Economia</option>
+                    <option value="esportes">Esportes</option>
+                    <option value="cultura">Cultura</option>
+                    <option value="entretenimento">Entretenimento</option>
+                    <option value="tecnologia">Tecnologia</option>
+                    <option value="saude">Saúde</option>
+                    <option value="ciencia">Ciência</option>
+                    <option value="internacional">Internacional</option>
+                    <option value="meioambiente">Meio Ambiente</option>
+                    <option value="educacao">Educação</option>
+                    <option value="seguranca">Segurança Pública</option>
+                    <option value="transito">Trânsito</option>
+                    <option value="religiao">Religião</option>
+                    <option value="moda">Moda</option>
+                    <option value="gastronomia">Gastronomia</option>
+                    <option value="agro">Agropecuária</option>
+                    <option value="turismo">Turismo</option>
+                    <option value="negocios">Negócios</option>
+                    <option value="opinião">Opinião</option>
+                </select>
+            </p>
+        </form> 
+        
+        <p>
+            <label>
+                <input type="checkbox"> Ao clicar você autoriza o compartilhamento da sua resposta com terceiros.
+            </label>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+
+    </main>
+  </body>
+</html>
